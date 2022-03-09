@@ -1,0 +1,60 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 450px;
+    align-items: center;
+    justify-content: space-evenly;
+    h2{
+        margin: 0;
+    }
+    .linkCampus{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        @mixin configBoton {
+            display: flex;
+            width: 350px;
+            height: 100px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 20px;
+            img{
+                background: red;
+                height: 50px;
+                width: 50px;
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+
+        .presentismo{
+            @include configBoton;
+        }
+        .presentismo:hover{
+            background-color: rgba(0, 162, 255, 0.555);
+        }
+
+        .meet{
+            @include configBoton;
+        }
+        .meet:hover{
+            background-color: rgba(0, 255, 0, 0.507);
+        }
+
+        .campus{
+            @include configBoton;
+        }
+        .campus:hover{
+            background-color: rgba(217, 255, 0, 0.5);
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,14 @@
+.header-content{
+    background: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .logo{
+        align-items: center;
+        img{
+            height: 80px;
+            width: 200px;
+            border-radius: 8px;
+        }
+    }
+}
