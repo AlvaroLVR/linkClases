@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-content{
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    padding-right: 1rem;
+    color: #333;
+}
+.logo{
+    padding: 1rem;
+}
+.titulo{
+    padding:1rem;
+}
+.main-content{
+    margin:0;
+    padding: 2rem;
+}
+
+.container{
+    width: 85%;
+    margin:auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.content-campus{
+    padding: 4rem 2rem;
+}
+.content-entornos{
+    padding: 4rem 2rem;
+}
+.container a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+li img{
+    height: 2rem;
+    width: 2 rem;
+    margin: 2rem 0;
+}
+button{
+    padding: 1rem;
+    margin: 1rem;
+    border:0;
+    background-color: yellow;
+    text-align: center;
+}
+.link-campus li{
+    list-style: none;
+}
+.link-entornos li{
+    list-style: none;
+}
+.boton button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.main-footer{
+    background: yellow;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
