@@ -314,6 +314,45 @@
   }
 }
 
+.mainVideos .galeriaVideos .contrario {
+  -webkit-animation-name: jumpCon;
+          animation-name: jumpCon;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes jumpCon {
+  0% {
+    position: relative;
+    bottom: 0px;
+  }
+  50% {
+    position: relative;
+    bottom: 5px;
+  }
+  100% {
+    position: relative;
+    bottom: 0px;
+  }
+}
+
+@keyframes jumpCon {
+  0% {
+    position: relative;
+    bottom: 0px;
+  }
+  50% {
+    position: relative;
+    bottom: 5px;
+  }
+  100% {
+    position: relative;
+    bottom: 0px;
+  }
+}
+
 .mainVideos .inicio {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
