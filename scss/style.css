@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
 }
 
 .mainContent {
@@ -63,6 +63,7 @@
 
 .mainContent .linkCampus .presentismo a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .mainContent .linkCampus .presentismo:hover {
@@ -90,6 +91,7 @@
 
 .mainContent .linkCampus .meet a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .mainContent .linkCampus .meet:hover {
@@ -117,6 +119,7 @@
 
 .mainContent .linkCampus .campus a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .mainContent .linkCampus .campus:hover {
@@ -145,6 +148,7 @@
 
 .mainContent .linkCampus .videos a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .mainContent .linkCampus .videos img {
@@ -173,6 +177,7 @@
 
 .mainContent .linkCampus .wsp a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .mainContent .linkCampus .wsp img {
@@ -201,6 +206,7 @@
 
 .mainContent .linkCampus .excel a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .mainVideos {
