@@ -10,8 +10,9 @@
     }
     .linkCampus{
         display: flex;
-        flex-direction: row;
+        flex-flow: row wrap;
         list-style: none;
+        justify-content: center;
         @mixin configBoton {
             display: flex;
             width: 350px;
@@ -22,12 +23,6 @@
             align-items: center;
             margin: 0 20px;
             box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-            img{
-                background: red;
-                height: 50px;
-                width: 50px;
-                border-radius: 50%;
-            }
             a{
                 text-decoration: none;
             }
@@ -52,6 +47,24 @@
         }
         .campus:hover{
             background-color: rgba(217, 255, 0, 0.5);
+        }
+        .videos{
+            @include configBoton;
+            margin-top: 10px;
+            img{
+                margin-left: 25px;
+            }
+        }
+        .wsp{
+            @include configBoton;
+            margin-top: 10px;
+            img{
+                margin-left: 25px;
+            }
+        }
+        .excel{
+            @include configBoton;
+            margin-top: 10px;
         }
     }
 }
