@@ -24,6 +24,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            
             a{
                 align-items: center;
                 text-decoration: none;
@@ -36,14 +37,17 @@
                 0%{
                 position: relative;
                 bottom: 5px;
+                box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
                 }
                 50%{
                 position: relative;
                 bottom: 0px;
+                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
                 }
                 100%{
                 position: relative;
                 bottom: 5px;
+                box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
                 }
             }
         }
@@ -58,14 +62,17 @@
                 0%{
                 position: relative;
                 bottom: 0px;
+                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
                 }
                 50%{
                 position: relative;
                 bottom: 5px;
+                box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
                 }
                 100%{
                 position: relative;
                 bottom: 0px;
+                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
                 }
             }
         }
