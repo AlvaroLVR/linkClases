@@ -49,7 +49,6 @@
   width: 350px;
   height: 100px;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -59,6 +58,7 @@
   margin: 0 20px;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid #673ab7;
 }
 
 .mainContent .linkCampus .presentismo a {
@@ -67,7 +67,7 @@
 }
 
 .mainContent .linkCampus .presentismo:hover {
-  background-color: rgba(0, 162, 255, 0.555);
+  background-color: #683ab788;
 }
 
 .mainContent .linkCampus .meet {
@@ -77,7 +77,6 @@
   width: 350px;
   height: 100px;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -87,6 +86,7 @@
   margin: 0 20px;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid #118b81;
 }
 
 .mainContent .linkCampus .meet a {
@@ -95,7 +95,7 @@
 }
 
 .mainContent .linkCampus .meet:hover {
-  background-color: rgba(0, 255, 0, 0.507);
+  background-color: #118b819d;
 }
 
 .mainContent .linkCampus .campus {
@@ -105,7 +105,6 @@
   width: 350px;
   height: 100px;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -115,6 +114,7 @@
   margin: 0 20px;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid #fdd306;
 }
 
 .mainContent .linkCampus .campus a {
@@ -123,7 +123,7 @@
 }
 
 .mainContent .linkCampus .campus:hover {
-  background-color: rgba(217, 255, 0, 0.5);
+  background-color: #fdd40696;
 }
 
 .mainContent .linkCampus .videos {
@@ -133,7 +133,6 @@
   width: 350px;
   height: 100px;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -143,6 +142,7 @@
   margin: 0 20px;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid #ff0000;
   margin-top: 10px;
 }
 
@@ -155,6 +155,10 @@
   margin-left: 25px;
 }
 
+.mainContent .linkCampus .videos:hover {
+  background-color: #ff000096;
+}
+
 .mainContent .linkCampus .wsp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,7 +166,6 @@
   width: 350px;
   height: 100px;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -173,6 +176,7 @@
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   margin-top: 10px;
+  border: 5px solid #47c756;
 }
 
 .mainContent .linkCampus .wsp a {
@@ -184,6 +188,10 @@
   margin-left: 25px;
 }
 
+.mainContent .linkCampus .wsp:hover {
+  background-color: #47c7569a;
+}
+
 .mainContent .linkCampus .excel {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,7 +199,6 @@
   width: 350px;
   height: 100px;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -201,12 +208,17 @@
   margin: 0 20px;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid #107c41;
   margin-top: 10px;
 }
 
 .mainContent .linkCampus .excel a {
   text-decoration: none;
   margin-right: 10px;
+}
+
+.mainContent .linkCampus .excel:hover {
+  background-color: #107c41a9;
 }
 
 .mainVideos {
