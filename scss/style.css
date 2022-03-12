@@ -257,8 +257,7 @@
 .mainVideos .galeriaVideos li {
   height: 70px;
   width: 100px;
-  background-color: rgba(255, 255, 0, 0.815);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
   border-radius: 8px;
   margin: 0 10px;
   display: -webkit-box;
@@ -270,6 +269,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation-name: jump;
+          animation-name: jump;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .mainVideos .galeriaVideos li a {
@@ -277,6 +282,36 @@
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+}
+
+@-webkit-keyframes jump {
+  0% {
+    position: relative;
+    bottom: 5px;
+  }
+  50% {
+    position: relative;
+    bottom: 0px;
+  }
+  100% {
+    position: relative;
+    bottom: 5px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    position: relative;
+    bottom: 5px;
+  }
+  50% {
+    position: relative;
+    bottom: 0px;
+  }
+  100% {
+    position: relative;
+    bottom: 5px;
+  }
 }
 
 .mainVideos .inicio {
