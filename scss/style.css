@@ -94,10 +94,6 @@
   margin-right: 10px;
 }
 
-.mainContent .linkCampus .meet:hover {
-  background-color: #118b819d;
-}
-
 .mainContent .linkCampus .campus {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,10 +116,6 @@
 .mainContent .linkCampus .campus a {
   text-decoration: none;
   margin-right: 10px;
-}
-
-.mainContent .linkCampus .campus:hover {
-  background-color: #fdd40696;
 }
 
 .mainContent .linkCampus .videos {
@@ -155,10 +147,6 @@
   margin-left: 25px;
 }
 
-.mainContent .linkCampus .videos:hover {
-  background-color: #ff000096;
-}
-
 .mainContent .linkCampus .wsp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,10 +176,6 @@
   margin-left: 25px;
 }
 
-.mainContent .linkCampus .wsp:hover {
-  background-color: #47c7569a;
-}
-
 .mainContent .linkCampus .excel {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,13 +201,13 @@
   margin-right: 10px;
 }
 
-.mainContent .linkCampus .excel:hover {
-  background-color: #107c41a9;
-}
-
 .mainContent .linkCampus li:hover {
   position: relative;
   bottom: 5px;
+}
+
+.mainContent .linkCampus li:hover img {
+  opacity: .5;
 }
 
 .mainContent .linkCampus li > a {
@@ -278,12 +262,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation-name: jump;
-          animation-name: jump;
-  -webkit-animation-duration: 1.4s;
-          animation-duration: 1.4s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
 }
 
 .mainVideos .galeriaVideos li a {
@@ -293,100 +271,43 @@
   text-decoration: none;
 }
 
-@-webkit-keyframes jump {
-  0% {
-    position: relative;
-    bottom: 5px;
-    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-  }
-  50% {
-    position: relative;
-    bottom: 0px;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    position: relative;
-    bottom: 5px;
-    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-  }
-}
-
-@keyframes jump {
-  0% {
-    position: relative;
-    bottom: 5px;
-    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-  }
-  50% {
-    position: relative;
-    bottom: 0px;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    position: relative;
-    bottom: 5px;
-    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-  }
-}
-
 .mainVideos .galeriaVideos li:hover {
   background-color: #fdd4068f;
-}
-
-.mainVideos .galeriaVideos .contrario {
-  -webkit-animation-name: jumpCon;
-          animation-name: jumpCon;
-  -webkit-animation-duration: 1.4s;
-          animation-duration: 1.4s;
+  -webkit-animation-name: moviCon;
+          animation-name: moviCon;
+  -webkit-animation-duration: .2s;
+          animation-duration: .2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes jumpCon {
+@-webkit-keyframes moviCon {
   0% {
     position: relative;
-    bottom: 0px;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    left: -3px;
   }
   50% {
     position: relative;
-    bottom: 5px;
-    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
+    left: 3px;
   }
   100% {
     position: relative;
-    bottom: 0px;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    left: -3px;
   }
 }
 
-@keyframes jumpCon {
+@keyframes moviCon {
   0% {
     position: relative;
-    bottom: 0px;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    left: -3px;
   }
   50% {
     position: relative;
-    bottom: 5px;
-    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
+    left: 3px;
   }
   100% {
     position: relative;
-    bottom: 0px;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    left: -3px;
   }
 }
 

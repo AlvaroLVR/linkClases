@@ -37,19 +37,17 @@
         .meet{
             @include configBoton;
             background: #118b81;
-
         }
-        .meet:hover{
-            background-color: #118b819d;
-        }
+        // .meet:hover{
+        //     background-color: #118b819d;
+        // }
         .campus{
             @include configBoton;
             background:  #fdd306;
-
         }
-        .campus:hover{
-            background-color: #fdd40696;
-        }
+        // .campus:hover{
+        //     background-color: #fdd40696;
+        // }
         .videos{
             @include configBoton;
             background:  #ff0000;
@@ -59,9 +57,9 @@
                 margin-left: 25px;
             }
         }
-        .videos:hover{
-            background-color: #ff000096;
-        }
+        // .videos:hover{
+        //     background-color: #ff000096;
+        // }
         .wsp{
             @include configBoton;
             margin-top: 10px;
@@ -70,24 +68,28 @@
                 margin-left: 25px;
             }
         }
-        .wsp:hover{
-            background-color: #47c7569a;
-        }
+        // .wsp:hover{
+        //     background-color: #47c7569a;
+        // }
         .excel{
             @include configBoton;
             background:  #107c41;
             margin-top: 10px;
         }
-        .excel:hover{
-            background-color: #107c41a9;
-        }
+        // .excel:hover{
+        //     background-color: #107c41a9;
+        // }
         li:hover{
             position: relative;
             bottom: 5px;
+            img{
+                opacity: .5;
+            }
         }
         li>a{
             color: white;
         }
+        
     }
 }
 

@@ -28,58 +28,54 @@
                 align-items: center;
                 text-decoration: none;
             }
-            //animacion videos 
-            animation-name: jump;
-            animation-duration: 1.4s;
-            animation-iteration-count:infinite;
-            @keyframes jump {
-                0%{
-                position: relative;
-                bottom: 5px;
-                box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-                }
-                50%{
-                position: relative;
-                bottom: 0px;
-                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-                }
-                100%{
-                position: relative;
-                bottom: 5px;
-                box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
-                }
-            }
+            
         }
         li{
             @include configMiniVideo;
         }
         li:hover{
             background-color: #fdd4068f;
-        }
-        .contrario{
-            animation-name: jumpCon;
-            animation-duration: 1.4s;
+            animation-name: moviCon;
+            animation-duration: .2s;
             animation-iteration-count:infinite;
-            @keyframes jumpCon {
+            @keyframes moviCon {
                 0%{
                 position: relative;
-                bottom: 0px;
-                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+                left: -3px;
                 }
                 50%{
                 position: relative;
-                bottom: 5px;
-                box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
+                left: 3px;
                 }
                 100%{
                 position: relative;
-                bottom: 0px;
-                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+                left: -3px;
                 }
             }
+            
         }
     }
     .inicio{
         align-self: center;
     }
 }
+// animation-name: jump;
+// animation-duration: 1.4s;
+// animation-iteration-count:infinite;
+// @keyframes jump { //Efecto de salto 
+//     0%{
+//     position: relative;
+//     bottom: 5px;
+//     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
+//     }
+//     50%{
+//     position: relative;
+//     bottom: 0px;
+//     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+//     }
+//     100%{
+//     position: relative;
+//     bottom: 5px;
+//     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
+//     }
+// }
