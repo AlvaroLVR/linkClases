@@ -14,24 +14,23 @@
         list-style: none;
         display: flex;
         flex-flow: row wrap;
-
         @mixin configMiniVideo { 
             height: 70px;
             width: 100px;
-            border: 2px solid black;
+            //border: 2px solid rgb(0, 0, 0);
+            background-color: #fdd306;
             border-radius: 8px;
             margin: 0 10px;
             display: flex;
             justify-content: center;
             align-items: center;
-            
             a{
                 align-items: center;
                 text-decoration: none;
             }
             //animacion videos 
             animation-name: jump;
-            animation-duration: 1s;
+            animation-duration: 1.4s;
             animation-iteration-count:infinite;
             @keyframes jump {
                 0%{
@@ -54,9 +53,12 @@
         li{
             @include configMiniVideo;
         }
+        li:hover{
+            background-color: #fdd4068f;
+        }
         .contrario{
             animation-name: jumpCon;
-            animation-duration: 1s;
+            animation-duration: 1.4s;
             animation-iteration-count:infinite;
             @keyframes jumpCon {
                 0%{
