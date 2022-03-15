@@ -48,6 +48,9 @@
             .excel{
                 @include configB();
             }
+            .truchitos{
+                @include configB();
+            }
         }
     }
     .header{
