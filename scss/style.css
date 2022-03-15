@@ -15,7 +15,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100vw;
-  height: 450px;
+  height: 550px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -197,6 +197,31 @@
 }
 
 .mainContent .linkCampus .excel a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.mainContent .linkCampus .truchitos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 100px;
+  border-radius: 8px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.521);
+  margin-top: 10px;
+}
+
+.mainContent .linkCampus .truchitos a {
   text-decoration: none;
   margin-right: 10px;
 }
